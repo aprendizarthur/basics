@@ -1,0 +1,143 @@
+/* formatações padrão */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #18171D;
+}
+
+.site-border{
+    border: solid #FFFFFF 3px;
+    border-radius: 24px;
+}
+/* fontes */
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.josefin-sans-cta {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+.jacques-francois-regular {
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* cores */
+.branco{
+    color: #FFFFFF;
+}
+
+.preto{
+    color: #18171D;
+}
+
+/* nav */
+
+.nav-link{
+    font-size: 1rem;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.6s ease;
+}
+
+.nav-link:hover{
+    color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+}
+
+.navbar-brand:hover{
+    color: #FFFFFF;
+}
+
+.btn-primary{
+    background-color: #FFFFFF;
+    color: #18171D;
+    border-radius: 24px;
+    border: solid #FFFFFF 2px;
+}
+
+.btn-primary:hover{
+    background-color: #18171D;
+    color: #FFFFFF;
+    border: solid #FFFFFF 2px;
+    border-radius: 24px;
+    transition: 0.3s;
+}
+
+.btn-primary-nav{
+    background-color: #FFFFFF;
+    color: #18171D;
+    border-radius: 24px;
+    border: solid #FFFFFF 2px;
+    width: 25%;
+}
+
+.btn-secundario{
+    background-color: #18171D;
+    color: #FFFFFF;
+    border-radius: 24px;
+    border: solid #18171D 2px;
+}
+
+.btn-secundario:hover{
+    background-color: #FFFFFF;
+    color: #18171D;
+    border-radius: 24px;
+    border: solid #18171D 2px;
+}
+
+/* CTA */
+
+.cta-bg{
+    background-image: url(images/cta-bg.png);
+    background-position: top left;
+    overflow: hidden;
+}
+
+/* CTA-sec */
+
+.bg-cta-sec{
+    background-image: url(images/cta-sec.jpeg) repeat;
+    overflow: hidden;
+    background-position: center;
+}
+
+.bg-cta-ter{
+    background-image: url(images/white-bg.jpeg);
+    border-radius: 24px;
+}
+
+.bg-cta-ter-mobile{
+    background-color: #FFFFFF;
+}
+
+/* footer */
+
+ footer {
+    background-color: #FFFFFF;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+}
